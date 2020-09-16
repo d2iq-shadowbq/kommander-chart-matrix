@@ -1,5 +1,14 @@
 # README
 
+The purpose is to be able to identify what kommander-ui docker image version is tied to what kommander-addon deployement.
+
+* YAML - [kommander-matrix.yaml](/kommander-matrix.yaml)
+* JSON - [kommander-matrix.json](/kommander-matrix.json)
+
+*Usecase:*
+
+If I see the kommander-ui image 6.22.0 in the cluster it means it was deployed between (Kommander ClusterAddon 1.2.0 iteration 5 to iteration 9 / 1.2.0-5 and 1.2.0-9) releases.
+
 ## Install
 
 * You need Ruby and NVM 
