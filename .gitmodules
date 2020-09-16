@@ -1,0 +1,3 @@
+[submodule "kubeaddons-kommander"]
+	path = kubeaddons-kommander
+	url = git@github.com:mesosphere/kubeaddons-kommander.git
