@@ -10,23 +10,24 @@ $> cd kommander-chart-matrix
 $[kommander-chart-matrix]> git pull --recurse-submodules
 $[kommander-chart-matrix]> git submodule update --recursive
 $[kommander-chart-matrix]> bundle install 
+$[kommander-chart-matrix]> cd json-view 
+$[kommander-chart-matrix/json-view]> npm install
 ```
 
 ## Generate
 
- `ruby build-matrix.rb`
+ `$[kommander-chart-matrix]> ruby build-matrix.rb`
 
 ## WebView
 
-``` 
+``` shell
 $> cd json-view/ && npm start
-
-$> json-view@1.0.0 start /Users/smacgregor/bailiwick/matrix/json-view
-$> node server.js
-
-Static server app listening at localhost:3000
+Static server(express.js) - http://localhost:3000
 ```
 
 ## To update 
 
-git submodule update --recursive
+``` shell
+$[kommander-chart-matrix]>git submodule update --recursive
+$[kommander-chart-matrix]> ruby build-matrix.rb
+```
